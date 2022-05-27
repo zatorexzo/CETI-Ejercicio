@@ -22,7 +22,7 @@ jobs:
         git add webapp/target/*.war
         git commit -m "From Action GH"
         git push
-        
+         
     - name: Login to DockerHub
       uses: docker/login-action@v1 
       with:
