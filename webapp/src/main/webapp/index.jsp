@@ -10,11 +10,11 @@
 
     <h1>Ejemplo App JSP </h1>
     <p>Date: 
-        <%= new java.util.Date() %>
+        <!-- <%= new java.util.Date() %> -->
     </p>
     <p>
         Dirección IP de la máquina cliente:
-        <%= request.getRemoteAddr() %>
+        <!-- <%= request.getRemoteAddr() %> -->
     </p>
     
 </body>
