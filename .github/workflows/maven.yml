@@ -51,4 +51,6 @@ jobs:
             # Now we have got the access of EC2 and we will start the deploy .
             docker stop web1 && docker rm web1
             docker run -d -it -p 80:8080 --name web1 zatorexzo/maven-app
+            sleep 60
             curl "ec2-54-160-164-13.compute-1.amazonaws.com"
+            '
