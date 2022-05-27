@@ -19,7 +19,7 @@ jobs:
       run: |
         git config user.name "Action GH"
         git config user.email "boot@user.com"
-        git add webapp/target/*.war
+        git add -f webapp/target/*.war
         git commit -m "From Action GH"
         git push
          
